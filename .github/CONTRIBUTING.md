@@ -15,7 +15,7 @@ patches and features.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/h5bp/html5-boilerplate/issues) is
+The [issue tracker](https://github.com/h5bp/main.css/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests), but please respect the following
 restrictions:
@@ -105,11 +105,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/html5-boilerplate.git
+   git clone https://github.com/<your-username>/main.css.git
    # Navigate to the newly cloned directory
-   cd html5-boilerplate
+   cd main.css
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/h5bp/html5-boilerplate.git
+   git remote add upstream https://github.com/h5bp/main.css.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
