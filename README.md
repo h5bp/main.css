@@ -1,7 +1,7 @@
 # main.css
 A repository for the development of the HTML5 Boilerplate CSS file
 
-It's alrady useful, just run...
+It's already useful, just run...
 
 ` npm install main.css`
 
