@@ -1,0 +1,47 @@
+{
+  "name": "main.css",
+  "version": "0.0.1",
+  "description": "The main.css file from HTML5 Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h5bp/main.css.git"
+  },
+  "keywords": [
+    "css",
+    "h5bp"
+  ],
+  "author": "@h5bp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h5bp/main.css/issues"
+  },
+  "homepage": "https://github.com/h5bp/main.css#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^1.1.0",
+    "gulp-header": "^2.0.5",
+    "gulp-replace": "^1.0.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
