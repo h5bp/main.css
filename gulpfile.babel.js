@@ -3,6 +3,7 @@ import pkg from './package.json';
 import header from 'gulp-header';
 import cssimport from 'gulp-cssimport';
 import del from 'del';
+import plugins from 'gulp-load-plugins';
 
 const license = `/* ${pkg.name} ${pkg.version} | ${pkg.license} License | ${pkg.homepage} */\n`;
 
@@ -20,6 +21,10 @@ gulp.task('concat', () => {
   gulp.src(src + main)
     .pipe(cssimport())
     .pipe(header(license))
+    .pipe(plugins().autoprefixer({
+      browsers: ['last 2 versions', 'ie >= 9', '> 1%'],
+      cascade: false
+    }))
     .pipe(gulp.dest(dist));
 });
 gulp.task('copy', () => {
