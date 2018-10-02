@@ -11,8 +11,8 @@ Choose one of the following options:
   https://github.com/h5bp/main.css.git` - and checkout the
   [tagged release](https://github.com/h5bp/main.css/releases)
   you'd like to use.
-- Install with [npm](https://www.npmjs.com/): `npm install main.css` and pull in what you need from the resulting `node_modules/main.css/dist`
-- Install with [yarn](https://yarnpkg.com/): `yarn add main.css`
+- Install with [npm](https://www.npmjs.com/): `npm install main.css` and pull in what you need from the resulting `node_modules/main.css/dist`folder
+- Install with [yarn](https://yarnpkg.com/): `yarn add main.css` and pull in what you need from the resulting `node_modules/main.css/dist`folder
 
 ## Features
 
