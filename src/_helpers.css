@@ -6,7 +6,7 @@
  * Hide visually and from screen readers
  */
 
- .hidden {
+.hidden {
   display: none !important;
 }
 
@@ -28,7 +28,8 @@
   padding: 0;
   position: absolute;
   width: 1px;
-  white-space: nowrap; /* 1 */
+  white-space: nowrap;
+  /* 1 */
 }
 
 /*
@@ -70,8 +71,10 @@
 
 .clearfix:before,
 .clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
 
 .clearfix:after {
