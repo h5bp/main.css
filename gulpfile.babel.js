@@ -7,14 +7,15 @@ import plugins from 'gulp-load-plugins';
 
 const license = `/* ${pkg.name} ${pkg.version} | ${pkg.license} License | ${pkg.homepage} */\n`;
 
-const src = './src/css/';
+const src = './src/';
 const dist = './dist/';
 const main = 'main.css';
 let files = [
-  './src/css/_base.css',
-  './src/css/_helpers.css',
-  './src/css/_mqs.css',
-  './src/css/_print.css' ];
+  `${src}/_base.css`,
+  `${src}/_helpers.css`,
+  `${src}/_mqs.css`,
+  `${src}/_print.css`
+];
 
 
 gulp.task('concat', () => {
@@ -22,7 +23,7 @@ gulp.task('concat', () => {
     .pipe(cssimport())
     .pipe(header(license))
     .pipe(plugins().autoprefixer({
-      browsers: ['last 2 versions', 'ie >= 9', '> 1%'],
+      browsers: ['last 2 versions', 'ie >= 11', '> 1%'],
       cascade: false
     }))
     .pipe(gulp.dest(dist));
@@ -30,7 +31,7 @@ gulp.task('concat', () => {
 gulp.task('copy', () => {
   gulp.src(files,{})
     .pipe(header(license))
-    .pipe(gulp.dest(dist))
+    .pipe(gulp.dest(dist));
 });
 gulp.task('clean', () => {
   del([dist]);
