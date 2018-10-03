@@ -120,7 +120,7 @@ overwritten.
 * Chrome *(latest 2)*
 * Edge *(latest 2)*
 * Firefox *(latest 2)*
-* Internet Explorer 9+
+* Internet Explorer 11
 * Opera *(latest 2)*
 * Safari *(latest 2)*
 
