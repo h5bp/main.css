@@ -25,11 +25,6 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -140,8 +135,8 @@ textarea {
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px;
   white-space: nowrap;
+  width: 1px;
   /* 1 */
 }
 
@@ -158,8 +153,8 @@ textarea {
   margin: 0;
   overflow: visible;
   position: static;
-  width: auto;
   white-space: inherit;
+  width: auto;
 }
 
 /*
