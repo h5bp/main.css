@@ -39,9 +39,9 @@ The `hidden` class can be added to any element that you want to hide visually
 and from screen readers. It could be an element that will be populated and
 displayed later, or an element you will hide with JavaScript.
 
-#### `.visuallyhidden`
+#### `.sr-only`
 
-The `visuallyhidden` class can be added to any element that you want to hide
+The `sr-only` class can be added to any element that you want to hide
 visually, while still have its content accessible to screen readers.
 
 #### `.invisible`
