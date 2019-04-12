@@ -112,9 +112,9 @@ textarea {
 *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
 */
 
-.visuallyhidden {
+.sr-only {
   border: 0;
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -126,13 +126,13 @@ textarea {
 }
 
 /*
-* Extends the .visuallyhidden class to allow the element
+* Extends the .sr-only class to allow the element
 * to be focusable when navigated to via the keyboard:
 * https://www.drupal.org/node/897638
 */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
