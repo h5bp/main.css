@@ -13,6 +13,7 @@ Thanks everyone!
 - [AllThingsSmitty](https://github.com/AllThingsSmitty)
 - [alrra](https://github.com/alrra)
 - [AndrewBrinker](https://github.com/AndrewBrinker)
+- [antleblanc](https://github.com/antleblanc)
 - [bekapod](https://github.com/bekapod)
 - [benoitchantre](https://github.com/benoitchantre)
 - [Boldewyn](https://github.com/Boldewyn)
