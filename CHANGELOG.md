@@ -1,6 +1,6 @@
 ## Changelog
 
-### 1.1.0 (April 16, 2019)
+### 2.0.0 (June 4, 2019)
 
 - Add `.stylelintrc` config ([#18](https://github.com/h5bp/main.css/pull/18))
 - Rename `visuallyhidden` to `sr-only` ([#27](https://github.com/h5bp/main.css/pull/27))
