@@ -23,7 +23,6 @@ gulp.task('concat', () => {
     .pipe(cssimport())
     .pipe(header(license))
     .pipe(plugins().autoprefixer({
-      browsers: ['last 2 versions', 'ie >= 11', '> 1%'],
       cascade: false
     }))
     .pipe(gulp.dest(dist));
