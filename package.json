@@ -4,6 +4,7 @@
   "description": "The main.css file from HTML5 Boilerplate",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "del": "^4.1.1",
+    "eslint": "^6.0.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-cssimport": "^7.0.0",
