@@ -4,8 +4,8 @@
   "description": "The main.css file from HTML5 Boilerplate",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:js": "eslint .",
+    "test": "npm run lint:js"
   },
   "repository": {
     "type": "git",
