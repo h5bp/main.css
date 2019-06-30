@@ -25,6 +25,7 @@
     "@babel/register": "^7.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.2",
     "babel-preset-env": "^1.7.0",
     "del": "^4.1.1",
     "eslint": "^6.0.1",
@@ -52,5 +53,9 @@
     "last 2 versions",
     "ie >= 11",
     "> 1%"
-  ]
+  ],
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": "eslint:recommended"
+  }
 }
