@@ -2,19 +2,15 @@
 # in this file, please see the Travis CI documentation:
 # https://docs.travis-ci.com
 
-before_script:
-  - npm install -g gulp-cli
-script: gulp
-
 git:
   depth: 10
 
 language: node_js
 
 node_js:
-  - 6
   - 8
   - 9
+  - 10
 
 dist: trusty
 sudo: false

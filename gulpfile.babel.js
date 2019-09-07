@@ -1,15 +1,13 @@
 import gulp from 'gulp';
-import pkg from './package.json';
-import header from 'gulp-header';
-import cssimport from 'gulp-cssimport';
-import del from 'del';
 import plugins from 'gulp-load-plugins';
+import del from 'del';
+
+import pkg from './package.json';
 
 const license = `/* ${pkg.name} ${pkg.version} | ${pkg.license} License | ${pkg.homepage} */\n`;
 
-const src = './src/';
+const src = './src';
 const dist = './dist/';
-const main = 'main.css';
 let files = [
   `${src}/_base.css`,
   `${src}/_helpers.css`,
@@ -17,23 +15,36 @@ let files = [
   `${src}/_print.css`
 ];
 
-
 gulp.task('concat', () => {
-  gulp.src(src + main)
-    .pipe(cssimport())
-    .pipe(header(license))
+  return gulp.src(`${src}/main.css`)
+    .pipe(plugins().cssimport())
+    .pipe(plugins().header(license))
     .pipe(plugins().autoprefixer({
       cascade: false
     }))
     .pipe(gulp.dest(dist));
 });
+
 gulp.task('copy', () => {
-  gulp.src(files,{})
-    .pipe(header(license))
+  return gulp.src(files, {})
+    .pipe(plugins().header(license))
     .pipe(gulp.dest(dist));
 });
-gulp.task('clean', () => {
-  del([dist]);
+
+gulp.task('clean', (done) => {
+  del([
+    dist
+  ]).then(() => {
+    done();
+  });
 });
 
-gulp.task('default',['copy','concat']);
+gulp.task(
+  'build',
+  gulp.series(
+    'clean',
+    gulp.parallel('copy', 'concat')
+  )
+);
+
+gulp.task('default', gulp.series('build'));
