@@ -1,4 +1,4 @@
-name: Node.js Package
+name: mpm publish
 
 on:
   release:
@@ -9,11 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm ci
-      - run: npm run build
-
+      - name: Run a one-line script
+        run: echo Hello, world!
+    
 
   
