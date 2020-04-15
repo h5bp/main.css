@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/h5bp/main.css#readme",
   "devDependencies": {
-    "@babel/register": "^7.8.6",
+    "@babel/register": "^7.9.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
@@ -34,8 +34,8 @@
     "gulp-autoprefixer": "^7.0.0",
     "gulp-cssimport": "^7.0.0",
     "gulp-header": "^2.0.9",
-    "gulp-load-plugins": "^2.0.2",
-    "stylelint": "^13.2.1",
+    "gulp-load-plugins": "^2.0.3",
+    "stylelint": "^13.3.2",
     "stylelint-config-recommended": "^3.0.0"
   },
   "babel": {
