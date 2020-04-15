@@ -1,4 +1,5 @@
 # main.css
+
 A repository for the development of the HTML5 Boilerplate CSS file. It includes both the whole `main.css` file as well as component files used to generate `main.css`. This way you can either pull in the whole file, as we do in HTML5 Boilerplate or you can pull in the individual files as needed.
 
 ## Quick start
@@ -27,7 +28,6 @@ Several base styles are included. These styles:
 * protect against unwanted `text-shadow` during text highlighting
 * tweak the default alignment of some elements (e.g.: `img`, `video`,
   `fieldset`, `textarea`)
-* style the prompt that is displayed to users using an outdated browser
 
 ### _helpers.css
 
