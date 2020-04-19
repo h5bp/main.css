@@ -6,7 +6,8 @@
  * Hide visually and from screen readers
  */
 
-.hidden {
+.hidden,
+[hidden] {
   display: none !important;
 }
 
