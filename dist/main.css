@@ -93,7 +93,8 @@ textarea {
  * Hide visually and from screen readers
  */
 
-.hidden {
+.hidden,
+[hidden] {
   display: none !important;
 }
 
@@ -193,7 +194,7 @@ textarea {
   *,
   *:before,
   *:after {
-    background: transparent !important;
+    background: #fff !important;
     color: #000 !important;
     /* Black prints faster */
     -webkit-box-shadow: none !important;
