@@ -7,9 +7,9 @@
 
 @media print {
   *,
-  *:before,
-  *:after {
-    background: transparent !important;
+  *::before,
+  *::after {
+    background: #fff !important;
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
@@ -21,11 +21,11 @@
     text-decoration: underline;
   }
 
-  a[href]:after {
+  a[href]::after {
     content: " (" attr(href) ")";
   }
 
-  abbr[title]:after {
+  abbr[title]::after {
     content: " (" attr(title) ")";
   }
 
@@ -33,8 +33,8 @@
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
     content: "";
   }
 
