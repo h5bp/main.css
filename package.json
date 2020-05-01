@@ -2,11 +2,11 @@
   "name": "main.css",
   "version": "2.0.0",
   "description": "The main.css file from HTML5 Boilerplate",
-  "main": "index.js",
   "scripts": {
     "build": "gulp build",
+    "lint:css": "stylelint \"src/*.css\"",
     "lint:js": "eslint .",
-    "test": "npm run lint:js"
+    "test": "npm run lint:css"
   },
   "repository": {
     "type": "git",
@@ -35,8 +35,8 @@
     "gulp-cssimport": "^7.0.0",
     "gulp-header": "^2.0.9",
     "gulp-load-plugins": "^2.0.3",
-    "stylelint": "^13.3.2",
-    "stylelint-config-recommended": "^3.0.0"
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0"
   },
   "babel": {
     "presets": [
