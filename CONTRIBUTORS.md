@@ -54,6 +54,7 @@ Thanks everyone!
 - [thatryan](https://github.com/thatryan)
 - [TheLonelyGhost](https://github.com/TheLonelyGhost)
 - [timmytofu](https://github.com/timmytofu)
+- [vltansky](https://github.com/vltansky)
 - [WraithKenny](https://github.com/WraithKenny)
 - [XhmikosR](https://github.com/XhmikosR)
 
