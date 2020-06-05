@@ -2,41 +2,25 @@
   "name": "main.css",
   "version": "2.1.0",
   "description": "The main.css file from HTML5 Boilerplate",
-  "scripts": {
-    "build": "gulp build",
-    "lint:css": "stylelint \"src/*.css\"",
-    "lint:js": "eslint .",
-    "test": "npm run lint:css"
+  "keywords": [
+    "css",
+    "h5bp"
+  ],
+  "homepage": "https://github.com/h5bp/main.css#readme",
+  "bugs": {
+    "url": "https://github.com/h5bp/main.css/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/h5bp/main.css.git"
   },
-  "keywords": [
-    "css",
-    "h5bp"
-  ],
-  "author": "@h5bp",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/h5bp/main.css/issues"
-  },
-  "homepage": "https://github.com/h5bp/main.css#readme",
-  "devDependencies": {
-    "@babel/register": "^7.9.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.1.0",
-    "babel-preset-env": "^1.7.0",
-    "del": "^5.1.0",
-    "eslint": "^6.8.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.0",
-    "gulp-cssimport": "^7.0.0",
-    "gulp-header": "^2.0.9",
-    "gulp-load-plugins": "^2.0.3",
-    "stylelint": "^13.3.3",
-    "stylelint-config-standard": "^20.0.0"
+  "author": "@h5bp",
+  "scripts": {
+    "build": "gulp build",
+    "lint:css": "stylelint \"src/*.css\"",
+    "lint:js": "eslint .",
+    "test": "npm run lint:css"
   },
   "babel": {
     "presets": [
@@ -60,5 +44,21 @@
   "eslintConfig": {
     "parser": "babel-eslint",
     "extends": "eslint:recommended"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.9.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "del": "^5.1.0",
+    "eslint": "^6.8.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-cssimport": "^7.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-load-plugins": "^2.0.3",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
