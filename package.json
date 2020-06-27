@@ -18,7 +18,7 @@
   "author": "@h5bp",
   "scripts": {
     "build": "gulp build",
-    "lint:css": "stylelint \"src/*.css\"",
+    "lint:css": "stylelint \"src/*.scss\"",
     "lint:js": "eslint .",
     "test": "npm run lint:css"
   },
@@ -61,5 +61,8 @@
     "node-sass": "^4.14.1",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "stylelint-scss": "^3.18.0"
   }
 }
