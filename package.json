@@ -46,7 +46,7 @@
     "extends": "eslint:recommended"
   },
   "devDependencies": {
-    "@babel/register": "^7.9.0",
+    "@babel/register": "^7.10.5",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
@@ -57,8 +57,8 @@
     "gulp-autoprefixer": "^7.0.0",
     "gulp-cssimport": "^7.0.0",
     "gulp-header": "^2.0.9",
-    "gulp-load-plugins": "^2.0.3",
-    "stylelint": "^13.3.3",
+    "gulp-load-plugins": "^2.0.4",
+    "stylelint": "^13.6.1",
     "stylelint-config-standard": "^20.0.0"
   }
 }
