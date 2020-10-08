@@ -1,6 +1,6 @@
 # main.css
 
-A repository for the development of the HTML5 Boilerplate CSS file. It includes both the whole `main.css` file as well as component files used to generate `main.css`. This way you can either pull in the whole file, as we do in HTML5 Boilerplate or you can pull in the individual files as needed.
+A repository for the development of the HTML5 Boilerplate CSS file. It includes both the whole `main.css` file as well as component files used to generate `main.css`. This way you can either pull in the whole file, as we do in HTML5 Boilerplate or you can pull in the individual files as needed as per your convinence.
 
 ## Quick start
 
@@ -30,7 +30,7 @@ Several base styles are included. These styles:
 
 ### _helpers.css
 
-Along with the base styles, we also provide some commonly used helper classes.
+Along with the base styles, we also provide some commonly used helper classes which would help you to create your own repository.
 
 #### `.hidden`
 
