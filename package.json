@@ -57,7 +57,7 @@
     "gulp-autoprefixer": "^7.0.0",
     "gulp-cssimport": "^7.0.0",
     "gulp-header": "^2.0.9",
-    "gulp-load-plugins": "^2.0.4",
+    "gulp-load-plugins": "^2.0.5",
     "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0"
   }
