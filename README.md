@@ -96,8 +96,6 @@ At printing time, these styles will:
   [supporting browsers](https://en.wikipedia.org/wiki/Comparison_of_layout_engines_%28Cascading_Style_Sheets%29#Grammar_and_rules)
   that they should:
 
-  - ensure the table header (`<thead>`) is [printed on each page spanned by the
-    table](https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables)
   - prevent block quotations, preformatted text, images and table rows from
     being split onto two different pages
   - ensure that headings never appear on a different page than the text they
