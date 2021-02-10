@@ -16,6 +16,14 @@
   },
   "license": "MIT",
   "author": "@h5bp",
+  "files": [
+    "dist/",
+    "src/",
+    "CHANGELOG.md",
+    "LICENSE.txt",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "build": "gulp build",
     "lint:css": "stylelint \"src/*.css\"",
