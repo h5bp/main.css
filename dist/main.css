@@ -19,9 +19,6 @@ html {
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
  * Customize the background color to match your design.
  */
 
@@ -107,7 +104,7 @@ textarea {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.sr-only {
+.visually-hidden {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -121,13 +118,13 @@ textarea {
 }
 
 /*
- * Extends the .sr-only class to allow the element
+ * Extends the .visually-hidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -226,14 +223,6 @@ textarea {
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
-  }
-
-  /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
-  thead {
-    display: table-header-group;
   }
 
   tr,
