@@ -1,9 +1,9 @@
 # Contributors
 
-This file lists all the contributors that have worked on main.css over the years.  No matter how big or small their contribution, we appreciate each and every person that has added to this project over the years and we wanted to capture their contributions as we move forward with main.css as a standalone project. 
+This file lists all the contributors that have worked on main.css over the years.  No matter how big or small their contribution, we appreciate each and every person that has added to this project over the years and we wanted to capture their contributions as we move forward with main.css as a standalone project.
 
 This list includes people that have worked on all three iterations of this file: [/src/css/main.css](https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css), [/css/main.css](https://github.com/h5bp/html5-boilerplate/blob/da7bf0d530d20e2abf6e53042221084e949dbf71/css/main.css) and the original 
-[/css/style.css](https://github.com/h5bp/html5-boilerplate/blob/0c52750ea6df433a6ec73e909e3ad6408736bf52/css/style.css). 
+[/css/style.css](https://github.com/h5bp/html5-boilerplate/blob/0c52750ea6df433a6ec73e909e3ad6408736bf52/css/style.css).
 
 The first git commit, [from Paul Irish](https://github.com/h5bp/html5-boilerplate/blob/60dab21756d567a3511c45ad6b9e961bbc53754d/css/style.css), was on January 24, 2010.
 
@@ -57,4 +57,3 @@ Thanks everyone!
 - [vltansky](https://github.com/vltansky)
 - [WraithKenny](https://github.com/WraithKenny)
 - [XhmikosR](https://github.com/XhmikosR)
-
