@@ -2,6 +2,8 @@
 
 A repository for the development of the HTML5 Boilerplate CSS file. It includes both the whole `main.css` file as well as component files used to generate `main.css`. This way you can either pull in the whole file, as we do in HTML5 Boilerplate or you can pull in the individual files as needed.
 
+[![GitHub Super-Linter](https://github.com/h5bp/main.css/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ## Quick start
 
 Choose one of the following options:
