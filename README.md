@@ -107,7 +107,7 @@ At printing time, these styles will:
     [not appear on printed pages](https://css-tricks.com/almanac/properties/o/orphans/)
 
 The print styles are included along with the other `css` to [avoid the
-additional HTTP request](http://www.phpied.com/delay-loading-your-print-css/).
+additional HTTP request](https://www.phpied.com/delay-loading-your-print-css/).
 Also, they should always be included last, so that the other styles can be
 overwritten.
 
