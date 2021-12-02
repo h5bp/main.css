@@ -25,4 +25,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: build
-        run: npm run build
+        uses: actions/setup-node@v2.4.1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run build
