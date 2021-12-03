@@ -2,6 +2,8 @@
   "extends": "stylelint-config-standard",
   "rules":
     {
-      "comment-empty-line-before": null
+      "comment-empty-line-before": null,
+      "function-url-quotes": null,
+      "media-feature-name-no-vendor-prefix": null
     }
 }
