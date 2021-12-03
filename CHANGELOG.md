@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.0 (December 3, 2021)
+
+- Rename `sr-only' class to `visually-hidden` ([#109](https://github.com/h5bp/main.css/pull/109))
+- Remove print `thead` rule ([#101](https://github.com/h5bp/main.css/pull/101))
+- Remove Vendor-prefixed `::selection` ([#93](https://github.com/h5bp/main.css/pull/93))
+- Lots of dev dependency and npm publishing updates
+
 ## 2.1.0 (May 4, 2020)
 
 - Add and update `browserlist` ([#58](https://github.com/h5bp/main.css/pull/58)) ([#38](https://github.com/h5bp/main.css/commit/1761c424b12f5628ade32bd0626ab8b1e68ffb75))
