@@ -1,6 +1,10 @@
 # main.css
 
-A repository for the development of the HTML5 Boilerplate CSS file. It includes both the whole `main.css` file as well as component files used to generate `main.css`. This way you can either pull in the whole file, as we do in HTML5 Boilerplate or you can pull in the individual files as needed.
+A repository for the development of the HTML5 Boilerplate CSS file, `style.css`. 
+
+Historically, the file shipped with HTML5 Boilerplate was called `main.css`, hence the name of this project. It's since been renamed to `style.css`.  Just in case you were confused. 
+
+This project includes both the whole `main.css` file as well as component files used to generate `main.css`. This way you can either pull in the whole file, as we do in HTML5 Boilerplate (renaming it to `style.css`) or you can pull in the individual files as needed.
 
 [![GitHub Super-Linter](https://github.com/h5bp/main.css/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
@@ -126,7 +130,7 @@ We use the following browserlist configuration:
   ],
 ```
 
-[That configuration translates to this full list of browsers.](https://browserl.ist/?q=%22%3E+0.5%25%22%2C%22last+2+versions%22%2C%22Firefox+ESR%22%2C%22not+dead%22%2C%22IE+11%22)
+[That configuration translates to this full list of browsers.](https://browserslist.dev/?q=PiAwLjUlLCBsYXN0IDIgdmVyc2lvbnMsIEZpcmVmb3ggRVNSLCBub3QgZGVhZCwgSUUgMTE%3D)
 
 ## Contributing
 
