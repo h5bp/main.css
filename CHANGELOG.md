@@ -2,7 +2,7 @@
 
 ## 3.0.0 (December 3, 2021)
 
-- Rename `sr-only' class to `visually-hidden` ([#109](https://github.com/h5bp/main.css/pull/109))
+- Rename `sr-only` class to `visually-hidden` ([#109](https://github.com/h5bp/main.css/pull/109))
 - Remove print `thead` rule ([#101](https://github.com/h5bp/main.css/pull/101))
 - Remove Vendor-prefixed `::selection` ([#93](https://github.com/h5bp/main.css/pull/93))
 - Lots of dev dependency and npm publishing updates
