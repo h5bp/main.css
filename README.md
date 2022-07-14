@@ -121,16 +121,16 @@ overwritten.
 We use the following browserlist configuration:
 
 ```
- " browserslist": [
+ "browserslist": [
     "> 0.5%",
     "last 2 versions",
     "Firefox ESR",
     "not dead",
-    "IE 11"
+    "not IE 11"
   ],
 ```
 
-[That configuration translates to this full list of browsers.](https://browserslist.dev/?q=PiAwLjUlLCBsYXN0IDIgdmVyc2lvbnMsIEZpcmVmb3ggRVNSLCBub3QgZGVhZCwgSUUgMTE%3D)
+[That configuration translates to this full list of browsers.](https://browserslist.dev/?q=PiAwLjUlLCBsYXN0IDIgdmVyc2lvbnMsIEZpcmVmb3ggRVNSLCBub3QgZGVhZCwgbm90IElFIDEx)
 
 ## Contributing
 
