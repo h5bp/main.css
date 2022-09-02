@@ -59,7 +59,7 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.1.0",
     "babel-preset-env": "^1.7.0",
-    "del": "^6.1.1",
+    "del": "^7.0.0",
     "eslint": "^8.23.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
