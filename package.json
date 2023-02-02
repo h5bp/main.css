@@ -66,7 +66,7 @@
     "gulp-cssimport": "^7.0.0",
     "gulp-header": "^2.0.9",
     "gulp-load-plugins": "^2.0.8",
-    "stylelint": "^14.16.0",
+    "stylelint": "^14.16.1",
     "stylelint-config-standard": "^29.0.0"
   }
 }
