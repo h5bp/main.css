@@ -4,6 +4,7 @@
     "comment-empty-line-before": null,
     "function-url-quotes": null,
     "import-notation": null,
-    "media-feature-name-no-vendor-prefix": null
+    "media-feature-name-no-vendor-prefix": null,
+    "media-feature-range-notation": null
   }
 }
