@@ -1,6 +1,6 @@
 # main.css
 
-A repository for the development of the HTML5 Boilerplate CSS file, `style.css`. 
+A repository for the development of the HTML5 Boilerplate CSS file, `style.css`.
 
 Historically, the file shipped with HTML5 Boilerplate was called `main.css`, hence the name of this project. It's since been renamed to `style.css`.  Just in case you were confused. 
 
@@ -115,22 +115,9 @@ additional HTTP request](https://www.phpied.com/delay-loading-your-print-css/).
 Also, they should always be included last, so that the other styles can be
 overwritten.
 
-
 ## Browser support
 
-We use the following browserlist configuration:
-
-```
- "browserslist": [
-    "> 0.5%",
-    "last 2 versions",
-    "Firefox ESR",
-    "not dead",
-    "not IE 11"
-  ],
-```
-
-[That configuration translates to this full list of browsers.](https://browserslist.dev/?q=PiAwLjUlLCBsYXN0IDIgdmVyc2lvbnMsIEZpcmVmb3ggRVNSLCBub3QgZGVhZCwgbm90IElFIDEx)
+We use the default browserslist configuration which [translates to this full list of browsers](https://browserslist.dev/?q=ZGVmYXVsdHM%3D).
 
 ## Contributing
 

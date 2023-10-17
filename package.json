@@ -42,13 +42,6 @@
       ]
     ]
   },
-  "browserslist": [
-    "> 0.5%",
-    "last 2 versions",
-    "Firefox ESR",
-    "not dead",
-    "not IE 11"
-  ],
   "eslintConfig": {
     "parser": "@babel/eslint-parser",
     "extends": "eslint:recommended"
