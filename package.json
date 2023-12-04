@@ -53,7 +53,7 @@
     "@babel/eslint-parser": "^7.23.3",
     "babel-preset-env": "^1.7.0",
     "del": "6.1.1",
-    "eslint": "^8.51.0",
+    "eslint": "^8.54.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-cssimport": "^7.0.0",
