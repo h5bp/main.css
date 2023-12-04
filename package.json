@@ -46,9 +46,8 @@
     "extends": "eslint:recommended"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.22.15",
     "del": "6.1.1",
-    "eslint": "^8.51.0",
+    "eslint": "^8.54.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^9.0.0",
     "gulp-cssimport": "^7.0.0",
