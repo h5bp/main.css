@@ -47,7 +47,7 @@
     "extends": "eslint:recommended"
   },
   "devDependencies": {
-    "@babel/register": "^7.22.15",
+    "@babel/register": "^7.23.7",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "@babel/eslint-parser": "^7.23.3",
