@@ -46,13 +46,19 @@
     "extends": "eslint:recommended"
   },
   "devDependencies": {
+    "@babel/register": "^7.23.7",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "@babel/eslint-parser": "^7.23.3",
+    "babel-preset-env": "^1.7.0",
     "del": "6.1.1",
-    "eslint": "^8.54.0",
+    "eslint": "^8.56.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^9.0.0",
     "gulp-cssimport": "^7.0.0",
     "gulp-header": "^2.0.9",
-    "stylelint": "^15.11.0",
-    "stylelint-config-standard": "^34.0.0"
+    "gulp-load-plugins": "^2.0.8",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0"
   }
 }
