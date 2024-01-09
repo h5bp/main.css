@@ -1,8 +1,11 @@
 import gulp from 'gulp';
-import plugins from 'gulp-load-plugins';
+import cssimport from 'gulp-cssimport';
+import header from 'gulp-header';
+import autoPrefixer from 'gulp-autoprefixer';
 import del from 'del';
-
-import pkg from './package.json';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const pkg = require('./package.json');
 
 const license = `/* ${pkg.name} ${pkg.version} | ${pkg.license} License | ${pkg.homepage} */\n`;
 
@@ -17,9 +20,9 @@ let files = [
 
 gulp.task('concat', () => {
   return gulp.src(`${src}/main.css`)
-    .pipe(plugins().cssimport())
-    .pipe(plugins().header(license))
-    .pipe(plugins().autoprefixer({
+    .pipe(cssimport())
+    .pipe(header(license))
+    .pipe(autoPrefixer({
       cascade: false
     }))
     .pipe(gulp.dest(dist));
@@ -27,7 +30,7 @@ gulp.task('concat', () => {
 
 gulp.task('copy', () => {
   return gulp.src(files, {})
-    .pipe(plugins().header(license))
+    .pipe(header(license))
     .pipe(gulp.dest(dist));
 });
 

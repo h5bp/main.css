@@ -43,7 +43,6 @@
     ]
   },
   "eslintConfig": {
-    "parser": "@babel/eslint-parser",
     "extends": "eslint:recommended"
   },
   "devDependencies": {
@@ -55,7 +54,7 @@
     "del": "6.1.1",
     "eslint": "^8.56.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
+    "gulp-autoprefixer": "^9.0.0",
     "gulp-cssimport": "^7.0.0",
     "gulp-header": "^2.0.9",
     "gulp-load-plugins": "^2.0.8",
