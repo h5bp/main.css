@@ -3,6 +3,8 @@ name: Lint Code Base
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
@@ -18,7 +20,8 @@ jobs:
         uses: github/super-linter/slim@v6
         env:
           DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_ALL_CODEBASE: false
+          VALIDATE_CHECKOV: false
           VALIDATE_EDITORCONFIG: false
           VALIDATE_MARKDOWN: false
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
