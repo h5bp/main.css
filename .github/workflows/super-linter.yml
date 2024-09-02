@@ -28,4 +28,5 @@ jobs:
           VALIDATE_CSS: false
           VALIDATE_CHECKOV: false
           VALIDATE_EDITORCONFIG: false
+          VALIDATE_JSCPD: false
           VALIDATE_MARKDOWN: false
